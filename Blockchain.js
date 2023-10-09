@@ -43,6 +43,7 @@ class Blockchain {
 
       // Validate prevHash
       const lastBlockHash = chain[i - 1].hash;
+
       if (prevHash !== lastBlockHash) {
         return false;
       }
@@ -58,6 +59,10 @@ class Blockchain {
       if (hash !== validHash) {
         return false;
       }
+
+      // Validate Difficulty
+      const prevDifficulty = chain[i - 1].difficulty;
+      if (Math.abs(prevDifficulty - difficulty) > 1) return false;
     }
     return true;
   }
