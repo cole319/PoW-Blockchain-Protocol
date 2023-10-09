@@ -75,7 +75,7 @@ blockChain1.addBlock({ data: "Block2" });
 blockChain1.addBlock({ data: "Block3" });
 
 // const validChain = Blockchain.isValidChain(blockChain1.chain);
-console.log(blockChain1.chain);
+// console.log(blockChain1.chain);
 // console.log(validChain);
 
 module.exports = Blockchain;
