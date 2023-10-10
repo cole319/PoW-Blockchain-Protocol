@@ -71,11 +71,11 @@ class Blockchain {
 // console.log("hello");
 const blockChain1 = new Blockchain();
 blockChain1.addBlock({ data: "Block1" });
-blockChain1.addBlock({ data: "Block2" });
-blockChain1.addBlock({ data: "Block3" });
+// blockChain1.addBlock({ data: "Block2" });
+// blockChain1.addBlock({ data: "Block3" });s
 
 // const validChain = Blockchain.isValidChain(blockChain1.chain);
-// console.log(blockChain1.chain);
+console.log(blockChain1.chain);
 // console.log(validChain);
 
 module.exports = Blockchain;
