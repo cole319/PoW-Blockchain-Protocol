@@ -31,6 +31,8 @@ this.subscriber.subscribe(CHANNELS.CHAIN);
 this.publisher.publish(CHANNELS.CHAIN, JSON.stringify(blockchainData));
 ```
 
+![blockchain](https://github.com/user-attachments/assets/5ff54ba7-012a-4b8f-9a42-3cdf5fe4b246)
+
 #### Tech Stack
 
 <ul>
@@ -39,6 +41,8 @@ this.publisher.publish(CHANNELS.CHAIN, JSON.stringify(blockchainData));
   <li>Crypto (native) — For hashing and Proof of Work</li>
   <li>Redis — Pub/Sub communication layer for node networking</li>
 </ul>
+
+## Getting Started
 
 #### Prerequisites
 
@@ -76,5 +80,5 @@ PORT=3001 npm start
 PORT=3002 npm start
 
 ```
-![blockchain](https://github.com/user-attachments/assets/5ff54ba7-012a-4b8f-9a42-3cdf5fe4b246)
+
 
